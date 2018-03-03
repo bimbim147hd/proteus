@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'GothamRounded Book';
+    src: url('../fonts/GothamRoundedBook21018.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/GothamRoundedBook21018.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/GothamRoundedBook21018.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/GothamRoundedBook21018.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/GothamRoundedBook21018.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GothamRoundedBook21018.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'GothamRounded Medium';
+    src: url('../fonts/GothamRoundedMedium21022.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/GothamRoundedMedium21022.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/GothamRoundedMedium21022.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/GothamRoundedMedium21022.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/GothamRoundedMedium21022.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GothamRoundedMedium21022.svg') format('svg');
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'GothamRounded Book';
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'GothamRounded Medium';
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0px;
+}
+
+header {
+    background: url(../assets/images/banner.jpg) no-repeat center center /cover;
+    padding-top: 50px;
+    padding-bottom: 140px;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 199px;
+    margin-bottom: 50px
+}
+
+
+
+.header-inner h1 {
+    font-size: 26px;
+    color: #75dce8;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 715px;
+    margin: auto;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.header-inner h1 span {
+    font-size: 18px;
+    color: #00e4ff;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.subscribe-form {
+    width: 100%;
+    max-width: 425px;
+    margin: auto;
+}
+
+.subscribe-form .form-control {
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    color: #353535;
+    padding-left: 20px;
+}
+
+#formEmail label.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: block;
+    font-size: 13px;
+}
+
+.btn-primary.btn--grey {
+    color: #fff;
+    background-color: #353535;
+    border-color: #353535;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 15px 12px;
+    cursor: pointer;
+}
+
+.btn-primary.btn--grey:hover {
+    opacity: .9;
+}
+
+.full--width {
+    width: 100%;
+}
+
+.sec-pad {
+    padding: 50px 0px;
+}
+
+.pop-up {
+    position: absolute;
+    width: 100%;
+    height: calc(100% + 100px);
+    background: rgba(117, 220, 232, 0.8);
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+
+.pop-up-inner {
+    width: 100%;
+    max-width: 1030px;
+    padding: 30px 15px;
+    margin: auto;
+}
+
+.pop-body {
+    width: 100%;
+    background: #f2fafa;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.close-pop {
+    position: absolute;
+    top: 30px;
+    right: 36px;
+}
+
+.pop-body .logo img {
+    margin-bottom: 32px;
+}
+
+.pop-body p {
+    color: #242424;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.pop-body h2 {
+    color: #00e4ff;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.pop-body h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #313233;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.share-btns {
+    width: 100%;
+    max-width: 558px;
+    margin: auto;
+}
+
+.share-btns a {
+    z-index: 99999;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-left: -5px;
+    font-size: 12px;
+    display: inline-block;
+    width: 49.5%;
+    border: 1px solid #313232;
+}
+
+.share-btns a:first-child {
+    color: #313232;
+    
+}
+
+.share-btns a:last-child {
+    background: #313232;
+    color: #fff;
+}
+
+.share-btns a i {
+    float: left;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+
+.pop-up {
+    display: none;
+}
+
+.pop-up.active {
+    display: block;
+}
+#group-share{
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    width: 90%;
+}
+#group-share p {
+    margin: 0;
+    width: 100%;
+}
+#group-share span {
+    padding: 2px 15px;
+    font-size: 13px;
+}
+
+#group-share button{
+    background-color: #313232;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    padding: 10px 15px;
+    margin-bottom: 5px; 
+}
+
+#how-it-works {
+    background: #75dce8;
+}
+
+.sec-title {
+    font-size: 26px;
+    letter-spacing: 6px;
+    color: #353535;
+    margin-bottom: 40px;
+}
+
+.sec-title.type-white {
+    color: #fff;
+}
+
+.sec-title span {
+    display: block;
+    color: #75dce8;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.how-it-works-item img {
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.how-it-works-item h3 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.how-it-works-item p {
+    color: #fff;
+}
+
+.footer-top {
+    background: url(../assets/images/background.jpg) no-repeat center center /cover;
+}
+
+.footer-contact {
+    width: 100%;
+    max-width: 425px;
+    margin: auto;
+}
+
+.footer-contact h3 {
+    color: #00e4ff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+.footer-bottom {
+    background: #333333;
+    padding: 15px 15px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom a:hover {
+    color: #75dce8;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .how-it-works-item img {
+        max-width: 88px;
+    }
+    .how-it-works-item h3 {
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+        min-height: 32px;
+    }
+    .how-it-works-item p {
+        font-size: 14px;
+    }
+    .sec-title {
+        font-size: 22px;
+        letter-spacing: 4px;
+    }
+   
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .how-it-works-item {
+        margin-bottom: 30px;
+    }
+    .logo img {
+        max-width: 130px;
+        margin-bottom: 27px;
+    }
+    .header-inner h1 span {
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+    .header-inner h1 {
+        font-size: 18px;
+    }
+    header {
+        padding-top: 35px;
+        padding-bottom: 60px;
+    }
+    .pop-body p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    pop-body h2 {
+        font-size: 26px;
+    }
+    .pop-body h3 {
+        font-size: 15px;
+        margin-bottom: 29px;
+    }
+    .share-btns a {
+        width: 100%;
+    }
+    .pop-body h2 {
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .sec-title {
+        font-size: 18px;
+    }
+    .sec-title span {
+        font-size: 13px;
+    }
+    .footer-contact h3 {
+        font-size: 14px;
+    }
+    .subscribe-form .form-control {
+        font-size: 12px;http://beppo.com:8080?rel=186441
+    }
+    .pop-body {
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #group-share button{
+        background-color: #313232;
+        color: #fff;
+        border: none;
+        font-size: 12px;
+        padding: 0;
+        margin-bottom: 5px; 
+    }
+}

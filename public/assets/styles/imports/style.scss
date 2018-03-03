@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'DINCondensedBold';
+    src: url('../fonts/DINCondensedBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/DINCondensedBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/DINCondensedBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/DINCondensedBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/DINCondensedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/DINCondensedBold.svg') format('svg');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/BebasNeue.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/BebasNeue.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/BebasNeue.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/BebasNeue.svg') format('svg');
+}
+@font-face {
+    font-family: 'GothamRoundedBook';
+    src: url('../fonts/GothamRoundedBook21018.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/GothamRoundedBook21018.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GothamRoundedBook21018.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GothamRoundedBook21018.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GothamRoundedBook21018.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GothamRoundedBook21018.svg') format('svg');
+}
+
+
+body{
+    overflow-x: hidden;
+    color: #000;
+}
+h1,h2,h3,h4{
+    margin: 0;
+    color: #000;
+}
+p, a{
+    margin-bottom: 0;
+    color: #000;
+    font-size: 19px;
+}
+ul{
+    padding-left:0;
+        margin: 0px;
+}
+header{
+    // background: url(../assets/images/banner.jpg) no-repeat center center /cover;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    position: relative;
+}
+header:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.79);
+}
+.logo img{
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+header h1{
+    font-family: 'DINCondensedBold';
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+    color:#fff;
+    text-transform: uppercase;
+}
+header p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    max-width: 618px;
+    margin: auto;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.sec-title{
+    font-family: 'BebasNeue';
+    font-size: 50px;
+    color: #333;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.proteus{
+    padding-top: 45px;
+    padding-bottom: 48%;
+    // background: url(../assets/images/bk1.jpg) no-repeat center bottom /cover;
+}
+.proteus .sec-title{
+    background: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+        line-height: 65px;
+}
+.approach h2{
+    margin-top: 65px;
+}
+.approach-inner{
+    width: 100%;
+    max-width: 731px;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.approach p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-bottom: 43px;
+    line-height: 2;
+}
+.approach img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.top-form {
+    width: 100%;
+    max-width: 531px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.btn{
+    cursor: pointer;
+}
+.top-form .form-control, .top-form .btn{
+    font-family: 'DINCondensedBold';
+    width: 49.5%;
+    display: inline-block;
+    font-size: 13px;
+    border-color: #d4cccd;
+    background: #d4cccd;
+    height: 50px;
+    border-radius: 0px;
+    letter-spacing: 4px;
+    color:#000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.top-form .btn{
+    position: relative;
+    top: -1px;
+}
+
+#formEmail .errorTxt .error {
+    margin-top: 15px; 
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: block;
+    font-size: 13px;
+}
+
+.btn.btn--dark{
+    background-color: transparent;
+    color: #fff;
+    
+}
+.btn.btn--dark:hover{
+    opacity: .9;
+    
+}
+header h2{
+    color:#303030;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.pop-up{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(219, 219, 221, 0.87);
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+.pop-up-inner{
+    width: 100%;
+    max-width: 1030px;
+    padding: 30px 15px;
+    margin: auto;
+}
+.pop-body{
+    width: 100%;
+    background: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 58px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 0px 0px 58px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 58px rgba(0, 0, 0, 0.61);
+}
+.close-pop{
+    position: absolute;
+    top: 30px;
+    right: 36px;
+}
+.pop-body .logo img {
+    margin-bottom: 32px;
+}
+.pop-body p {
+    font-family: 'BebasNeue';
+    color: #252525;
+    font-size:  25px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.pop-body h2 {
+    color: #252525;
+    font-size:  60px;
+    margin-bottom: 15px;
+    text-decoration: none;
+        font-family: 'BebasNeue';
+        letter-spacing: 6px;
+}
+.pop-body h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #252525;
+    font-size:  20px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.share-btns{
+    width: 100%;
+    max-width: 558px;
+    margin: auto;
+}
+.share-btns a{
+    font-family: 'GothamRoundedBook';
+    text-decoration: none;
+    padding: 15px 15px;
+        margin-left: -5px;
+    font-size: 12px;
+    display: inline-block;
+    width: 49.5%;
+    border: 1px solid #303030;
+    letter-spacing: 2px;
+    
+}
+.share-btns a:first-child {
+    color: #303030;
+}
+.share-btns a:last-child{
+    background: #303030;
+    color: #fff;
+}
+.share-btns a i{
+float: left;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+#group-share{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -175px;
+}
+#group-share span {
+    color: #303030;
+}
+#group-share button {
+    background-color: #303030;
+    border: none;
+    color: #fff;
+}
+
+.pop-up{
+    display: none;
+}
+.pop-up .logo{
+    margin-bottom: 40px;
+}
+.pop-up.active{
+    display: block;
+}
+
+footer{
+    padding: 24px;
+    background: #333;
+}
+footer a{
+   color: #fff;
+   font-family: 'BebasNeue';
+    font-size: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+footer a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+header h1 {
+    font-size: 31px;
+    letter-spacing: 5px;
+}
+
+.sec-pad {
+    padding-top: 80px;
+    padding-bottom: 64px;
+}
+p, a {
+    font-size: 16px;
+}
+
+
+footer a {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.pop-body p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+pop-body h2 {
+    font-size: 26px;
+}
+.pop-body h3 {
+    font-size: 15px;
+    margin-bottom: 29px;
+}
+.share-btns a {
+    width: 100%;
+}
+.pop-body h2 {
+    font-size: 24px;
+}
+.sec-title {
+    font-size: 24px;
+}
+.approach p {
+    margin-bottom: 34px;
+}
+.logo img {
+    max-width: 195px;
+}
+.top-form .btn{
+    top: 0px!important;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+header {
+    padding-bottom: 60px;
+}
+header h1 {
+    font-size: 21px;
+    letter-spacing: 3px;
+}
+.top-form .form-control, .top-form .btn {
+    width: 100%;
+    display: block;
+}
+.top-form .btn {
+    margin-left: 0px;
+    top: 0px;
+}
+.logo img {
+    margin-bottom: 28px;
+}
+.pop-body {
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pop-body .logo img {
+    margin-bottom: 11px;
+    width: 143px;
+}
+#group-share{
+    bottom: 2px;
+    margin-left: -135px;
+}
+#group-share span {
+    font-size: 13px;
+
+}
+}
+@media(max-width: 333px){
+    .pop-body {
+        padding-bottom: 63px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
