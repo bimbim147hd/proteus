@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center animated fadeIn">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="" /></a></div>
+                        <div class="logo"><a href="{{asset('/')}}"><img src="assets/images/logo.png" alt="" /></a></div>
                         <h1>HEALTHIER SPORTS PROTIENS</h1>
                         <p>
                             We design your tailored nutrition routine!
