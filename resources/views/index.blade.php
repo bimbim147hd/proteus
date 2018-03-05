@@ -21,13 +21,13 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
-   {{--  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114864697-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114864697-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'UA-114864697-1');
-    </script> --}}
+        gtag('config', 'UA-115060305-1');
+    </script>
 </head>
 <body>
     <!-- Header -->
