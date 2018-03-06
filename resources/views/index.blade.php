@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="">
-    <meta name="title" content=""/>
-    <meta name="description" content=""/>
+    <meta name="title" content="Organic energy & protein powders"/>
+    <meta name="description" content="Healthier Sports Proteins in personal packets tailored to your fitness routine in monthly plans. "/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="og:title" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:description" content="" />
+    <meta property="og:title" content="Organic energy & protein powders" />
+    <meta property="og:image" content="{{url('/')}}/assets/images/400x209.png" />
+    <meta property="og:description" content="Healthier Sports Proteins in personal packets tailored to your fitness routine in monthly plans. " />
     <title>Proteus</title>
-    <link rel="icon" href="" type="image/gif" sizes="16x16">
+    <link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/gif" sizes="16x16">
     <link href="{{ asset('assets/dist/app.css') }}" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
