@@ -4,9 +4,9 @@
             <div class="pop-up active animated fadeIn">
                 <div class="pop-up-inner">
                     <div class="pop-body text-center">
-                        <a href="{{asset('/')}}" class="close-pop"><img src="assets/images/close.png" alt="" /></a>
+                        <a href="" class="close-pop"><img src="assets/images/close.png" alt="" /></a>
                         <div class="logo">
-                            <img src="assets/images/logo-black.png" alt=""/>
+                            <a href="{{asset('/')}}" title=""><img src="assets/images/logo-black.png" alt=""/></a>
                         </div>
                         <p>THANK YOU FOR JOINING OUR WAITLIST</p>
                         <h2>Get additional packs for free!</h2>
