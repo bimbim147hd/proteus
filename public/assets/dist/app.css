@@ -11025,7 +11025,7 @@ header p {
 
 .top-form .btn {
   position: relative;
-  top: -1px; }
+  top: 0px; }
 
 #formEmail .errorTxt .error {
   margin-top: 15px;

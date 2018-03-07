@@ -72,7 +72,8 @@
                                         {{''}}
                                     @endif
                                     " placeholder="">
-                                <input type="submit" name="send" class="btn btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">
+                                <input type="submit" name="send" class="btn btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">\
+
                                 <div class="errorTxt"></div>
                             </form>
                         </div>
