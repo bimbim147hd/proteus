@@ -1,5 +1,8 @@
  @extends('index')
  @section('popup')
+ <script>
+     fbq('track', 'Lead');
+ </script>
      <!-- Pop Up -->
             <div class="pop-up active animated fadeIn">
                 <div class="pop-up-inner">

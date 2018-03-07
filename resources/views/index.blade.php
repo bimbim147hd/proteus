@@ -28,6 +28,25 @@
         gtag('js', new Date());
         gtag('config', 'UA-115060305-1');
     </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1701311586578775');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+        src="https://www.facebook.com/tr?id=1701311586578775&ev=PageView
+        &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 <body>
     <!-- Header -->
@@ -36,7 +55,7 @@
                 <div class="row">
                     <div class="col-12 text-center animated fadeIn">
                         <div class="logo"><a href="{{asset('/')}}"><img src="assets/images/logo.png" alt="" /></a></div>
-                        <h1>HEALTHIER SPORTS PROTIENS</h1>
+                        <h1>HEALTHIER SPORTS PROTEINS</h1>
                         <p>
                             We design your tailored nutrition routine!
                             Delivered at your doorstep every month.
@@ -108,7 +127,7 @@
 
         <!-- Footer -->
         <footer>
-            <a href="#">Contact</a>
+             <a href= "mailto:hello@morphehome.com">Contact</a>
         </footer>
         <!-- ./Footer -->
     <script src="{{ asset('assets/dist/app.js') }}"></script>

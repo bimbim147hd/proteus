@@ -16120,12 +16120,12 @@ $(document).ready(function () {
         return false;
     });
 
-    $('footer a').click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 500);
-        return false;
-    });
+    // $('footer a').click(function() {
+    //     $('body,html').animate({
+    //         scrollTop: 0
+    //     }, 500);
+    //     return false;
+    // });
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
