@@ -62,7 +62,7 @@
                             Our services will be available in a few weeks.
                         </p>
                         <div class="top-form">
-                            <form id="formEmail" action="{{asset('/')}}" method="post">
+                            {{-- <form id="formEmail" action="{{asset('/')}}" method="post">
                                 {{ csrf_field() }}
                                 <input type="email" value="{{old('email')}}" class="form-control animated fadeIn" id="email" name="email" placeholder="ENTER YOUR EMAIL" />
                                  <input type="hidden" name="code" value="
@@ -72,8 +72,20 @@
                                         {{''}}
                                     @endif
                                     " placeholder="">
-                                <input type="submit" name="send" class="btn btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">\
-
+                                <input type="submit" name="send" class="btn btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">
+                                <div class="errorTxt"></div>
+                            </form> --}}
+                             <form id="formEmail" action="{{asset('/')}}" method="post">
+                                {{ csrf_field() }}
+                                <input id="email" class="email" type="email" name="email" value="{{old('email')}}" placeholder="ENTER YOUR EMAIL">
+                                <input type="hidden" name="code" value="
+                                    @if (isset($_GET['rel']))
+                                        {{$_GET['rel']}}
+                                    @else
+                                        {{''}}
+                                    @endif
+                                    " placeholder="">
+                                <input class="send" type="submit" name="send" value="JOIN OUR WAITING LIST">
                                 <div class="errorTxt"></div>
                             </form>
                         </div>

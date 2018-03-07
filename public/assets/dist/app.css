@@ -11009,24 +11009,34 @@ header p {
 .btn {
   cursor: pointer; }
 
-.top-form .form-control, .top-form .btn {
+.top-form .email {
   font-family: 'DINCondensedBold';
+  background: #d4cccd;
   width: 49.5%;
   display: inline-block;
   font-size: 13px;
-  border-color: #d4cccd;
-  background: #d4cccd;
   height: 50px;
-  border-radius: 0px;
+  border: 1px solid #d4cccd;
   letter-spacing: 4px;
   color: #000;
   text-transform: uppercase;
   text-align: center; }
 
-.top-form .btn {
-  position: relative;
-  margin-top: -2px;
-  padding-bottom: 9px; }
+.top-form .send {
+  font-family: 'DINCondensedBold';
+  background: #d4cccd;
+  width: 49.5%;
+  display: inline-block;
+  font-size: 13px;
+  height: 50px;
+  border: 1px solid #d4cccd;
+  letter-spacing: 4px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff; }
 
 #formEmail .errorTxt .error {
   margin-top: 15px;
@@ -11224,9 +11234,8 @@ footer a:hover {
   header h1 {
     font-size: 21px;
     letter-spacing: 3px; }
-  .top-form .form-control, .top-form .btn {
-    width: 100%;
-    display: block; }
+  .top-form .email, .top-form .send {
+    width: 100%; }
   .top-form .btn {
     margin-left: 0px;
     top: 0px; }
