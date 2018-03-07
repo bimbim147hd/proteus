@@ -49,7 +49,7 @@
     <!-- End Facebook Pixel Code -->
 </head>
 <body>
-    <!-- Header -->
+   <!-- Header -->
         <header style="background: url(../assets/images/banner.jpg) no-repeat center center /cover;">
             <div class="container">
                 <div class="row">
@@ -72,7 +72,7 @@
                                         {{''}}
                                     @endif
                                     " placeholder="">
-                                <input type="submit" name="send" class="btn {{-- btn-primary --}} btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">
+                                <input type="submit" name="send" class="btn btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">
                                 <div class="errorTxt"></div>
                             </form>
                         </div>
@@ -97,9 +97,10 @@
 
         <!-- Approach -->
         <section class="approach">
-            <div class="">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-7">
+
                         <div class="approach-inner">
                              <h2 class="sec-title">OUR APPROACH</h2>
                         <p>
@@ -113,7 +114,7 @@
                         </p>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5" style="padding-right: 0;">
                         <img src="assets/images/img-1.jpg" alt="" />
                     </div>
                 </div>
