@@ -10941,8 +10941,8 @@ header:before {
   background: rgba(0, 0, 0, 0.79); }
 
 .logo img {
-  width: auto;
-  max-width: 100%;
+  width: 270px;
+  height: 115px;
   margin-bottom: 50px; }
 
 header h1 {
@@ -11096,7 +11096,9 @@ header h2 {
   right: 36px; }
 
 .pop-body .logo img {
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  width: 149px;
+  height: 63px; }
 
 .pop-body p {
   font-family: 'BebasNeue';

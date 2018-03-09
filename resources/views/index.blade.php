@@ -38,12 +38,12 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window,document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1701311586578775');
+        fbq('init', '595454987461031');
         fbq('track', 'PageView');
     </script>
     <noscript>
         <img height="1" width="1"
-        src="https://www.facebook.com/tr?id=1701311586578775&ev=PageView
+        src="https://www.facebook.com/tr?id=595454987461031&ev=PageView
         &noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
@@ -57,24 +57,9 @@
                         <div class="logo"><a href="{{asset('/')}}"><img src="assets/images/logo.png" alt="" /></a></div>
                         <h1>HEALTHIER SPORTS PROTEINS</h1>
                         <p>
-                            We design your tailored nutrition routine!
-                            Delivered at your doorstep every month.
-                            Our services will be available in a few weeks.
+                           We design & deliver protein blends that suit your own body, goals and sport routine. Launching soon: Subscribe to get notified.
                         </p>
                         <div class="top-form">
-                            {{-- <form id="formEmail" action="{{asset('/')}}" method="post">
-                                {{ csrf_field() }}
-                                <input type="email" value="{{old('email')}}" class="form-control animated fadeIn" id="email" name="email" placeholder="ENTER YOUR EMAIL" />
-                                 <input type="hidden" name="code" value="
-                                    @if (isset($_GET['rel']))
-                                        {{$_GET['rel']}}
-                                    @else
-                                        {{''}}
-                                    @endif
-                                    " placeholder="">
-                                <input type="submit" name="send" class="btn btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">
-                                <div class="errorTxt"></div>
-                            </form> --}}
                              <form id="formEmail" action="{{asset('/')}}" method="post">
                                 {{ csrf_field() }}
                                 <input id="email" class="email" type="email" name="email" value="{{old('email')}}" placeholder="ENTER YOUR EMAIL">
@@ -85,8 +70,10 @@
                                         {{''}}
                                     @endif
                                     " placeholder="">
-                                <input class="send" type="submit" name="send" value="JOIN OUR WAITING LIST">
+                                {{-- <input class="send" type="submit" name="send" value="JOIN OUR WAITING LIST"> --}}
+                                <button class="send" name="send" type="submit">JOIN OUR WAITING LIST</small></button>
                                 <div class="errorTxt"></div>
+                                <p style="margin-top: 15px;"><u>& GET FREE PACK</u></p>
                             </form>
                         </div>
                     </div>
@@ -117,17 +104,17 @@
                         <div class="approach-inner">
                              <h2 class="sec-title">OUR APPROACH</h2>
                         <p>
-                            We are a team of nutritionists, athletes and sport coaches believing that your current chemical proteins solutions don't fit your body and damage your health.
+                            We are a team of nutritionists, athletes and sport coaches believing that your current chemical proteins solutions <strong>don't fit your body and damage your health</strong>.
                         </p>
                         <p>
-                            We decided to build a new type of protein made of natural ingredients with supernatural powers.
+                            We decided to build a new type of service that let you design in no time the perfect protein blend for you made of natural ingredients by selecting your body characteristics, goals, tastes and sport routine.
                         </p>
                         <p>
-                            Our proteins are custom made for you and delivered monthly to your door.
+                            Our protein blends are custom made for yourself and delivered monthly at your doorstep. You can unsubscribe whenever you want.
                         </p>
                         </div>
                     </div>
-                    <div class="col-md-5" style="padding-right: 0;">
+                    <div class="col-md-5" style="padding-right: 0; padding-left: 0;">
                         <img src="assets/images/img-1.jpg" alt="" />
                     </div>
                 </div>
@@ -139,7 +126,7 @@
 
         <!-- Footer -->
         <footer>
-             <a href= "mailto:hello@morphehome.com">Contact</a>
+             <a href= "mailto:hello@proteushealth.com">Contact</a>
         </footer>
         <!-- ./Footer -->
     <script src="{{ asset('assets/dist/app.js') }}"></script>
