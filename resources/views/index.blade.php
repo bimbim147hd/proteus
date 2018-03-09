@@ -126,7 +126,7 @@
 
         <!-- Footer -->
         <footer>
-             <a href= "mailto:hello@proteushealth.com">Contact</a>
+             <span>Contact</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hello@proteushealth.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/Proteushealth/" target="_blank" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </footer>
         <!-- ./Footer -->
     <script src="{{ asset('assets/dist/app.js') }}"></script>

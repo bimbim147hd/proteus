@@ -11186,7 +11186,7 @@ footer {
   padding: 24px;
   background: #333; }
 
-footer a {
+footer a, footer span {
   color: #fff;
   font-family: 'BebasNeue';
   font-size: 28px;
