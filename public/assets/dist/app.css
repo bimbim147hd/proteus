@@ -11186,13 +11186,28 @@ footer {
   padding: 24px;
   background: #333; }
 
-footer a, footer span {
+footer span {
   color: #fff;
   font-family: 'BebasNeue';
   font-size: 28px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 5px; }
+
+footer a {
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px !important;
+  text-align: center; }
+
+footer a.fa-envelope-o {
+  color: #db3236; }
+
+footer a.fa-facebook {
+  color: #3b5998; }
 
 footer a:hover {
   text-decoration: none; }
