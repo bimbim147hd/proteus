@@ -126,7 +126,7 @@
 
         <!-- Footer -->
         <footer>
-             <span>Contact</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="fa fa-envelope-o" href="mailto:hello@proteushealth.com"></a>&nbsp;&nbsp;&nbsp;<a class="fa fa-facebook" href="https://www.facebook.com/Proteushealth/" target="_blank" title=""></a>
+             <span>Contact</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="fa fa-envelope-o" href="mailto:hello@proteushealth.co"></a>&nbsp;&nbsp;&nbsp;<a class="fa fa-facebook" href="https://www.facebook.com/Proteushealth/" target="_blank" title=""></a>
         </footer>
         <!-- ./Footer -->
     <script src="{{ asset('assets/dist/app.js') }}"></script>
